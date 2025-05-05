@@ -1,0 +1,291 @@
+@media screen and (max-width:1200px){
+    .navbar h2 {
+        font-size: 1.5rem;
+    }
+    .navbar ul li a {
+        font-size: 1.1rem;
+    }
+    .navbar ul li a:hover {
+        font-size: 1.2rem;
+    }
+    .about-content {
+        margin-top: 15%;
+        margin-left: 55%;
+    }
+    .about-content h1 {
+        font-size: 2.2rem;
+    }
+    .about-content p {
+        font-size: 1.5rem;
+    }
+    .skill-image{
+        width: 50%;
+        padding: 2rem;
+    }    
+    .skill-list{
+        padding: 2rem;
+    }
+    .skill-list h4{
+        font-size: 2rem;
+    }
+    .skill p{
+        font-size: 1.1rem;
+    }
+    .project-images{
+        column-gap: 2rem;
+    }    
+    .project-section h1{
+        font-size: 2.2rem;
+    }
+    .project-section p{
+        font-size: 1.5rem;
+    }
+    .overlay p{
+        font-size: 1.3rem;
+    }
+    .overlay a{
+        font-size: 1.3rem;
+    }
+    .resume-image{
+        padding: 1rem;
+    }   
+    .resume-content h1{
+        font-size: 2.2rem;
+    }
+    .resume-content p{
+        font-size: 1.2rem;
+    } 
+    .contact-section h1{
+        font-size: 2.2rem;
+    }
+    .contact-content p{
+        font-size: 1.2rem;
+    }
+}
+    @media screen and (max-width:768px) {
+        .hamburger {
+            display: block;
+            position: fixed;
+            top: 0;
+            font-size: 2rem;
+            padding: 1rem;
+        }
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .navbar {
+            display: none;
+        }
+        .navbar.active {
+            display: flex;
+        }
+        .navbar h2 {
+            font-size: 2rem;
+            margin-bottom: 0;
+        }
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        .navbar ul li a:hover {
+            padding: 0.2rem 1rem;
+        }
+        .about-content {
+            text-align: center;
+            margin-top: none;
+            margin-left: 0;
+        }  
+        .about-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+        .about-content p {
+            font-size: 1.6rem;
+        }   
+        .skill-section{
+            background-color: #252525;
+            display: flex;
+            flex-direction: column;
+        }     
+        .skill-image{
+            width: 100%;
+            padding: 0rem;
+        } 
+        .skill-image img{
+            width: 100%;
+        }     
+        .skill-list{
+            width: 90%;
+            padding: 2rem;
+        }
+        .skill p{
+            font-size: 1.1rem;
+        }    
+        .project-section h1{
+            font-size: 2.5rem;
+        }
+        .project-section p{
+            font-size: 1.2rem;
+        }
+        .project-images{
+            grid-template-columns: 1fr;
+            row-gap: 3rem;
+        }
+        .overlay p{
+            font-size: 1.4rem;
+            padding: 1rem;
+        }
+        .overlay a{
+            font-size: 1.4rem;
+        }
+        .resume-section{
+            padding: 5rem;
+            flex-direction: column;
+        }  
+        .resume-image{
+            width: 100%;
+            padding: 0rem;
+            text-align: center;
+        }
+        .resume-image img{
+            width: 100%;
+        }  
+        .resume-content{
+            width: 100%;
+            padding-top: 5rem;
+            text-align: center;
+        } 
+        .resume-content h1{
+            font-size: 2.5rem;
+        }
+        .resume-content p{
+            font-size: 1.2rem;
+            display: block;
+        } 
+        .contact-content{
+            padding: 2rem 2rem;
+        }   
+        .contact-section h1{
+            font-size: 2.5rem;
+            text-decoration: underline;
+        }
+        .contact-content p{
+            font-size: 1.2rem;
+        }
+}
+    @media screen and (max-width:480px) {
+        .hamburger {
+            font-size: 1.5rem;
+        }
+        .navbar h2 {
+            font-size: 1.5rem;
+        }
+        .navbar ul li a {
+            font-size: 1rem;
+        }
+        .navbar ul li a:hover {
+            font-size: 1.1rem;
+        }
+        .about-section{
+            height: 80vh;
+        }        
+        .about-content {
+            text-align: center;
+            margin-top: none;
+            margin-left: 0;
+            display: flex;
+            flex-direction: column;
+        }  
+        .about-content h1{
+            font-size: 2rem;
+        }
+        .about-content p{
+            font-size: 1.3rem;
+        }
+        .skill-section{
+            padding: 2rem;
+        }      
+        .skill-image{
+            width: 100%;
+            padding: 0rem;
+        }  
+        .skill-image img{
+            height: 200px;
+            width: 100%;
+        }
+        .skill-list{
+            width: 90%;
+            padding: 1rem;
+        }
+        .skill-list h1{
+            font-size: 2rem;
+        }   
+        .skill p{
+            font-size: 1rem;
+        }    
+        .project-section{
+            padding: 2rem;
+        } 
+        .project-section h1{
+            font-size: 2rem;
+        }
+        .project-section p{
+            font-size: 1.2rem;
+        }
+        .project-images{
+            grid-template-columns: 1fr;
+            row-gap: 2rem;
+        }
+        .project-img{
+            height: 250px;
+        }
+        .overlay p{
+            font-size: 1.2rem;
+            padding: 1rem;
+        }
+        .overlay a{
+            font-size: 1.2rem;
+        }
+        .resume-section{
+            padding: 2rem;
+            padding-bottom: 4rem;
+        }
+        .resume-image{
+            padding-top: 2rem;
+        }
+        .resume-image img{
+            height: 200px;
+        }  
+        .resume-content{
+            width: 100%;
+            padding-top: 2rem;
+        }      
+        .resume-content h1{
+            font-size: 2rem;
+        }
+        .resume-content p{
+            font-size: 1.1rem;
+        }
+        .resume-content button{
+            font-size: 1.1rem;
+            padding: 10px 11px;
+        }  
+        .contact-section{
+            padding: 2rem;
+            padding-bottom: 4rem;
+        }  
+        .contact-content{
+            padding: 1rem 1rem;
+        }   
+        .contact-section h1{
+            font-size: 2rem;
+            text-decoration: underline;
+        }
+        .contact-content p{
+            font-size: 1.1rem;
+        }                           
+    }

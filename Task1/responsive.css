@@ -1,0 +1,314 @@
+@media  screen and (max-width:1200px) {
+    .cafe-name{
+        margin-left: 3rem;
+    }
+    .navbar{
+        flex: 2;
+    }
+    .home-content{
+        margin-left: 5rem;
+        margin-top: 4rem;
+    }
+    .home-content h1{
+        font-size: 2.8rem;
+    }  
+    .home-content p{
+        font-size: 1.1rem;
+    }     
+    .home-image img{
+        height: 400px;
+        width: 450px;
+    }
+    .home-button{
+        padding: 10px 12px;
+    }
+    .home-button a{
+        font-size: 1.1rem;
+    }
+    .home-button:hover{
+        padding: 12px 14px;
+    }
+    .home-button:hover a{
+        font-size: 1.2rem;
+    }    
+    @keyframes image {
+        0%{
+            transform: translate(0);
+        }
+        100%{
+            transform: translate(-5%);
+            height: 410px;
+            width: 460px;
+        }
+    }    
+    .about-content{
+        width: 40%;
+    }
+    .about-content h1{
+        font-size: 3rem;
+    }     
+    .about-content p{
+        font-size: 1.1rem;
+    }
+    .about-image{
+        width: 45%;
+        height: 400px;
+    }
+    .menu-container{
+        padding: 1rem;
+    }
+    .menu-container h1{
+        font-size: 3rem;
+    } 
+    .menu-item-container{
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+    }
+    .menu-item{
+        width: 25%;
+    }
+    .menu-item span{
+        font-weight: normal;
+    }
+    .contact-container h1{
+        font-size: 3rem;
+    }
+    .contact-container strong{
+        font-size: 1.4rem;
+    }
+    .contact-container p{
+        font-size: 1.3rem;
+    }   
+    footer p{
+        font-size: 1.1rem;
+    } 
+}
+@media screen and (max-width:768px) {
+    .home-container{
+        height: auto;
+    }
+    .navbar{
+        display: none;
+        flex: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        row-gap: 3rem;
+        height: 100vh;
+        width: 60%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 2rem;
+        background-color: #ffffff80;
+        z-index: 1;
+    }
+    .navbar a:hover{
+        color: black;
+    }
+    .close-icon{
+        align-self: flex-end;
+        margin: 1rem;
+        font-size: 1.5rem;
+        color: black;
+        display: block;
+    }
+    .navbar a{
+        margin-left: 3rem;
+        color: black;
+    }
+    .cafe-name{
+        margin-left: 2rem;
+        flex: 2;
+    }    
+    .hamburger{
+        display: block;
+        font-size: 2rem;
+        position: relative;
+        right: 2rem;
+    }
+    .cafe-name h1{
+        font-size: 2.8rem;
+    }
+    .home-section{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 5rem;
+    }    
+    .home-content{
+        width: 100%;
+        margin-left: 0rem;
+        text-align: center;
+        bottom: 0rem;
+    }    
+    .home-image{
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+    }   
+    .home-image img{
+        width: 100%;
+        height: 100%;
+        bottom: 0rem;
+        animation-duration: 3s;
+    }     
+    @keyframes image {
+        0%{
+            transform: translate(0);
+        }
+        100%{
+            transform: translate(5%);
+            height: 101%;
+            width: 101%;
+        }
+    }    
+    .about-container{
+        flex-direction: column;
+        height: auto;
+        padding-top: 0;
+    }     
+    .about-content{
+        width: 70%;
+        height: 300px;
+        margin-bottom: 4rem;
+    }
+    .about-content p{
+        font-size: 1rem;
+    }
+    .about-image{
+        width: 70%;
+        height: 400px;
+    }   
+    .menu-container{
+        padding-bottom: 50px;
+    }   
+    .menu-item-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 20px;
+    }
+    .menu-item{
+        width: 70%;
+        height: auto;
+        padding: 20px;
+    }
+    .menu-item:hover{
+        width: 75%;
+    }    
+    .menu-item h2{
+        font-size: 2rem;
+        margin: 0;
+    }
+    .menu-item p{
+        font-size: 1.4rem;
+    } 
+    .menu-item span{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }   
+    .contact-container{
+        padding: 1rem;
+    }
+    .contact-items{
+        flex-direction: column;
+    }
+    .contact-content{
+        width: 100%;
+    }
+    .contact-image{
+        width: 70%;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .cafe-name{
+        margin-left: 1rem;
+    }
+    .cafe-name h1{
+        font-size: 2rem;
+    }
+    .cafe-logo-image{
+        font-size: 1.8rem;
+    }
+    .hamburger{
+        font-size: 1.5rem;
+    }
+    .home-content h1{
+        font-size: 2rem;
+    }  
+    .home-content p{
+        font-size: 1rem;
+    }     
+    .home-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        width: 70%;
+    }
+     @keyframes image {
+        0%{
+            transform: translate(0);
+        }
+        100%{
+            transform: translate(-4%);
+            height: 102%;
+            width: 102%;
+        }
+    }     
+    .about-content{
+        width: 80%;
+        height: 300px;
+        padding-bottom: 4rem;
+    }
+    .about-image{
+        width: 80%;
+        height: 300px;
+    }      
+    .menu-item-container{
+        padding: 20px;
+    } 
+    .menu-item{
+        width: 80%;
+        height: auto;
+    }
+    .menu-item:hover{
+        width: 75%;
+    }    
+    .menu-item h2{
+        font-size: 1.5rem;
+        padding-top: 0rem;
+    }
+    .menu-item p{
+        font-size: 1rem;
+    } 
+    .menu-item span{
+        font-size: 1rem;
+    } 
+    .contact-content{
+        margin: 1rem 0 2rem 0;
+    }
+    .contact-image{
+        width: 80%;
+        height: 300px;
+    }
+    .contact-container h1{
+        margin: 0;
+    }
+    .contact-container p{
+        font-size: 1rem;
+    }    
+    .contact-container strong{
+        font-size: 1.1rem;
+    }  
+    footer{
+        padding-top: 1rem;
+    }
+    footer p{
+        font-size: 0.8rem;
+    }
+}

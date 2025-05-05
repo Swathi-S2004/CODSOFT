@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="icon" href="./images/cafe logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>SipStop Landing Page</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="home-container">
+            <header class="header">
+                <div class="cafe-name">
+                    <h1>SipStop</h1>
+                    <i class="fas fa-mug-hot cafe-logo-image"></i>
+                </div>
+                <nav class="navbar">
+                    <div class="close-icon">&#10005;</div>
+                    <a href="#home">Home <i class="fas fa-home"></i></a>
+                    <a href="#about">About <i class="fas fa-user"></i></a>
+                    <a href="#menu">Menu <i class="fas fa-utensils"></i></a>
+                    <a href="#contact">Contact <i class="fas fa-phone-alt"></i></a>
+                </nav>
+                <div class="hamburger">&#9776;</div>
+            </header>
+
+            <section class="home-section" id="home">
+                <div class="home-content">
+                    <h1>A Shot of Joy</h1>
+                    <p>" Start your day with a boost <br>
+                        Pure happiness in every pour <i class="fas fa-coffee"></i> "
+                    </p>
+                    <button class="home-button"><a href="#menu">View Menu</a></button>
+                </div>
+                <div class="home-image">
+                    <img src="./images/home image.png" alt="coffee cup image">
+                </div>
+            </section>
+        </div>
+
+        <div class="about-container" id="about">
+            <div class="about-content">
+                <h1>About SipStop</h1>
+                <p>At SipStop, we brew more than just coffee - we craft moments. Whether you're grabbing a quick
+                    espresso or settling in with friends, our cozy space and bold flavors are here to energize your
+                    day. Handpicked beans, handcrafted vibes - one sip at a time.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="./images/about image.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="menu-container" id="menu">
+            <h1>SipStop Specials</h1>
+            <div class="menu-item-container">
+                <div class="menu-item">
+                    <img src="./images/menu1.jpg" alt="Hazelnut Mocha Frappe">
+                    <h2>Hazelnut Mocha Frappe</h2>
+                    <p>Rich chocolate and hazelnut blended into a creamy frappe.</p>
+                    <span>&#8377;179</span>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/menu2.jpg" alt="Cheesy Truffle Fries" class="menu-fries">
+                    <h2>Cheesy Truffle Fries</h2>
+                    <p>Crispy golden fries topped with rich, fluffy cheese shreds and a hint of herbs.</p>
+                    <span>&#8377;149</span>
+                </div>
+                <div class="menu-item">
+                    <img src="./images/menu3.jpg" alt="Berry Bliss Waffle">
+                    <h2>Berry Bliss Waffle</h2>
+                    <p>Waffle topped with fresh berries, sugar dust and served with syrup.</p>
+                    <span>&#8377;220</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-container" id="contact">
+            <h1>Reach Us</h1>
+            <div class="contact-items">
+                <div class="contact-content">
+                    <p><strong>Address:</strong> 123 Brew Street, Bean Town, CoffeeLand</p>
+                    <p><strong>Phone:</strong> +1 234 567 8901</p>
+                    <p><strong>Email:</strong> hello@sipstop.com</p>    
+                </div>
+                <div class="contact-image">
+                    <img src="./images/contact image.jpg" alt="cafe image">
+                </div>    
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2025 SipStop. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navbar = document.querySelector('.navbar');
+        hamburger.onclick = function () {
+            navbar.style.display = "flex";
+            hamburger.style.display = "none";
+        }
+        const closeIcon = document.querySelector('.close-icon');
+        closeIcon.onclick = function () {
+            navbar.style.display = "none";
+            hamburger.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
