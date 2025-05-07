@@ -53,7 +53,16 @@ form .display input{
 form input.equal{
     width: 9rem;
 }
-
+@media screen and (max-width:480px) {
+    .calculator{
+        height: 100%;
+        padding: 2rem;
+        border-radius: 0px;
+    }
+    form.values{
+        gap: 15px;
+    }
+}
 @media screen and (max-width:480px) {
     .calculator{
         height: 100vh;
